@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color: #f4ede7;
 }
 
 /* header {
@@ -70,7 +71,7 @@ h1 ,.cup, .social {
 
 
 .landing-content {
-    padding-top: 24em;
+    padding-top: 20em;
     padding-left: 4.75em;
     padding-bottom: 24em;
 }
@@ -102,9 +103,48 @@ button {
 
 .secondary-header {
     background-color: #7b9c72;
-    padding: 200px 400px;
+    padding: 220px 400px;
     margin-top: -200px;
     margin-right: 75px;
     margin-left: 75px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+
+.bi-layer-sections {
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu, .order {
+    width: 48.5%;
+    height: 550px;
+    background-color: #5c4b44;
+    
+}
+
+.order {
+    text-align: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.order-items {
+    margin-right: 2.5em;
+    width: 300px;
+}
+
+.menu {
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.menu-items {
+    margin-left: 2.5em;
+    width: 300px;
 }
