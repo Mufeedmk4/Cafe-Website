@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #5c4b44;
+    margin-top: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.container {
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-right: 2em;
+    
+}
+
+.branding {
+    display: flex;
+    gap: .8em;
+}
+
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.socials {
+    display: flex;
+    gap: 2em;
+}
+
+
+
+h1 ,.cup, .social {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #f4ede7;
+}
+
+.navbar {
+    display: flex;
+    gap: 3em;
+    justify-content: right;
+    background-color: #f4ede7;
+    border-radius: 8px;
+}
+
+.nav-name {
+    list-style-type: none;
+    padding: 10px 25px 10px 10px;
+
+
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #5c4b44;
+}
