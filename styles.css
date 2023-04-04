@@ -129,6 +129,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: right;
+    line-height: 2em;
 }
 
 .order-items {
@@ -142,9 +143,123 @@ button {
     display: flex;
     align-items: center;
     justify-content: left;
+    line-height: 2em;
 }
 
 .menu-items {
     margin-left: 2.5em;
     width: 300px;
+}
+
+.menu-items p, .order-items p {
+    color:#bcb3a4;
+}
+
+.top-form {
+    margin-top: 5em;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+
+}
+
+.item-logo {
+    width: 600px;
+    border-radius: 15px;
+}
+
+.contact-item {
+    display: flex;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color:#5c4b44
+}
+
+.cup-logo {
+    font-size: 5rem;
+    text-align: center;
+    color:#5c4b44
+}
+
+.color-change {
+    color:#7b9c72;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.text-icons {
+    margin-left: 1em;
+}
+
+.form {
+    margin-top: 2em;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name-email {
+    display: flex;
+    gap: 70px;
+}
+
+textarea {
+    margin-top: 2rem;
+    resize: none;
+    height: 120px;
+    font-family: inherit;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bcb3a4;
+    background-color: #f4ede7;
+    border-radius: 5px;
+}
+
+.textbox {
+    width: 400px;
+    padding: 25px;
+    font-family: inherit;
+    border-radius: 5px;
+    border-color: #bcb3a4;
+    border-style: solid;
+    color:#bcb3a4;
+    background-color: #f4ede7;
+    
+}
+
+.help-text {
+    margin-bottom: 2em;
+    width: 550px;
+    text-align: center;
+    line-height: 2em;
+    color: #5c4b44;
+}
+
+.submit {
+    background-color: #7b9c72;
+    color:#f4ede7;
+    margin-top: 2rem;
+    padding: 15px 50px 15px 50px;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    color:#5c4b44;
+}
+
+footer p {
+    margin: 5px;
 }
