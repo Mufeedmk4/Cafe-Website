@@ -60,7 +60,9 @@ body {
 .top-row {
     display: flex;
     justify-content: space-between;
-
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
 }
 
 .socials {
@@ -76,12 +78,24 @@ h1 ,.cup, .social {
     color: #f4ede7;
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    
+}
+
 .navbar {
     display: flex;
     gap: 3em;
     justify-content: right;
     background-color: #f4ede7;
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
 }
 
 .nav-name {
@@ -98,7 +112,9 @@ h1 ,.cup, .social {
     color: #5c4b44;
     font-weight: bold;
 }
-
+.nav-links:hover, .nav-links:focus {
+    color: #f4ede7;
+}
 
 
 .landing-content {
