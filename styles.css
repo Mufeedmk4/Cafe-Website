@@ -9,11 +9,40 @@ body {
     flex-direction: column;
 } */
 
+.background-clip {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    /* position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden; */
+    /* position: absolute;
+    left: 0;
+    top: -50;
+    z-index: -1;
+    scale: auto;
+    margin-bottom: 1400px; */
+}
+
 .background-color {
-    background-color: #5c4b44;
+    background-color:#5c4b44;
     margin-top: 0;
     padding-top: 1em;
     padding-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
 }
 .container {
     margin-left: 2em;
@@ -58,9 +87,11 @@ h1 ,.cup, .social {
 .nav-name {
     list-style-type: none;
     padding: 10px 25px 10px 10px;
-
-
 }
+
+/* .box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+} */
 
 .nav-links {
     text-decoration: none;
@@ -74,6 +105,7 @@ h1 ,.cup, .social {
     padding-top: 20em;
     padding-left: 4.75em;
     padding-bottom: 24em;
+    
 }
 
 h2 {
@@ -101,16 +133,29 @@ button {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .secondary-header {
-    background-color: #7b9c72;
+    background-color: #5c4b4467;
     padding: 220px 400px;
     margin-top: -200px;
     margin-right: 75px;
     margin-left: 75px;
     margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
+.background-clip2 {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
 .bi-layer-sections {
     display: flex;
     justify-content:space-between;
