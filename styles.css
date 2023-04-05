@@ -114,6 +114,8 @@ nav{
 }
 .nav-links:hover, .nav-links:focus {
     color: #f4ede7;
+    background-color: #5c4b44;
+    padding: 10px 100px 10px 100px;
 }
 
 
@@ -135,7 +137,7 @@ h4 {
 }
 
 .landing-content h1 {
-    color: #7b9c72;
+    color: #f4ede7;
     font-size: 100px;
 }
 
