@@ -90,8 +90,8 @@ nav{
     display: flex;
     gap: 3em;
     justify-content: right;
-    background-color: #f4ede7;
-    border-radius: 4px;
+    background-color: #f4ede7ce;
+    border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-right: 2rem;
     margin-top: 1rem;
@@ -199,7 +199,7 @@ button {
 .menu, .order {
     width: 48.5%;
     height: 550px;
-    background-color: #5c4b44;
+    background-color: #5c4b4446;
     
 }
 
@@ -210,6 +210,18 @@ button {
     align-items: center;
     justify-content: right;
     line-height: 2em;
+    position: relative;
+    overflow: hidden;
+}
+
+.order-img {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    transform: translate(-40%, -57%);
 }
 
 .order-items {
@@ -224,6 +236,20 @@ button {
     align-items: center;
     justify-content: left;
     line-height: 2em;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.menu-img {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-45%, -52%);
+    
 }
 
 .menu-items {
@@ -250,6 +276,8 @@ button {
 .item-logo {
     width: 37.5rem;
     border-radius: 4px;
+    opacity: 90%;
+    color: #5c4b44;
 }
 
 .contact-item {
@@ -257,13 +285,13 @@ button {
     text-align: left;
     font-size: 1rem;
     font-weight: bold;
-    color:#5c4b44
+    color:#352e2b
 }
 
 .cup-logo {
     font-size: 5rem;
     text-align: center;
-    color:#5c4b44
+    color:#4d433e
 }
 
 .color-change {
@@ -322,7 +350,7 @@ textarea {
     width: 550px;
     text-align: center;
     line-height: 2em;
-    color: #5c4b44;
+    color: #352e2b;
 }
 
 .submit {
@@ -333,12 +361,17 @@ textarea {
     font-size: 1rem;
 }
 
+.submit:hover, .submit:focus {
+    background-color: #352e2b;
+    cursor: pointer;
+}
+
 footer {
     text-align: center;
     margin-top: 8rem;
     font-size: .8rem;
     margin-bottom: 3rem;
-    color:#5c4b44;
+    color:#352e2b;
 }
 
 footer p {
@@ -353,7 +386,7 @@ footer p {
 
 .container-two {
     margin-top: 4em;
-    background-color: #5c4b44;
+    background-color: #352e2b;
     height: 440px;
     width: auto;
     position: relative;
@@ -399,8 +432,13 @@ footer p {
     }
     .textarea {
         width: 450px;
-        height: 400px;
+        height: 175px;
         display: flex;
+       
+    }
+
+    .submit {
+        margin-top: 0;
     }
 
 }
