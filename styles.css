@@ -109,7 +109,7 @@ nav{
 
 .nav-links {
     text-decoration: none;
-    color: #5c4b44;
+    color: #352e2b;
     font-weight: bold;
 }
 .nav-links:hover, .nav-links:focus {
@@ -199,7 +199,7 @@ button {
 .menu, .order {
     width: 48.5%;
     height: 550px;
-    background-color: #5c4b4446;
+    background-color: #5c4b4458;
     
 }
 
@@ -273,25 +273,38 @@ button {
 
 }
 
-.item-logo {
+
+.big-cup {
+    font-size: 400px;
+    color: #5c4b44;
+    margin-top: 0px;
+}
+
+/* .item-logo {
     width: 37.5rem;
     border-radius: 4px;
     opacity: 90%;
     color: #5c4b44;
-}
+} */
 
 .contact-item {
     display: flex;
     text-align: left;
     font-size: 1rem;
     font-weight: bold;
-    color:#352e2b
+    color:#5c4b44;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cup-logo {
     font-size: 5rem;
     text-align: center;
-    color:#4d433e
+    color:#5c4b44;
 }
 
 .color-change {
@@ -302,7 +315,7 @@ button {
 
 .text-icons {
     margin-left: 1em;
-}
+} 
 
 .form {
     margin-top: 2em;
@@ -350,7 +363,7 @@ textarea {
     width: 550px;
     text-align: center;
     line-height: 2em;
-    color: #352e2b;
+    color: #5c4b44;
 }
 
 .submit {
@@ -362,7 +375,7 @@ textarea {
 }
 
 .submit:hover, .submit:focus {
-    background-color: #352e2b;
+    background-color: #5c4b44;
     cursor: pointer;
 }
 
@@ -371,7 +384,7 @@ footer {
     margin-top: 8rem;
     font-size: .8rem;
     margin-bottom: 3rem;
-    color:#352e2b;
+    color:#5c4b44;
 }
 
 footer p {
@@ -386,11 +399,24 @@ footer p {
 
 .container-two {
     margin-top: 4em;
-    background-color: #352e2b;
+    background-color: #5c4b445a;
     height: 440px;
     width: auto;
     position: relative;
+    overflow: hidden;
 }
+
+.other-img {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-55%, -35%);
+}
+
+
 
 .other-contents {
    text-align: left;
@@ -401,6 +427,9 @@ footer p {
    bottom: 150px; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 @media only screen and (max-width: 992px) {
@@ -422,8 +451,9 @@ footer p {
         margin-left: 0;
     }
 
-    .item-logo {
-        width: 100%;
+    .big-cup {
+        display: flex;
+        justify-content: center;
     }
 
     .name-email {
