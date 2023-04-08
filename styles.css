@@ -115,7 +115,7 @@ nav{
 .nav-links:hover, .nav-links:focus {
     color: #f4ede7;
     background-color: #5c4b44;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 25px 10px 25px;
 }
 
 
@@ -158,6 +158,8 @@ button {
 
 .secondary-header {
     background-color: #5c4b4467;
+    /* height: 30em;
+    width: 85em; */
     padding: 220px 400px;
     margin-top: -200px;
     margin-right: 75px;
@@ -166,6 +168,18 @@ button {
     position: relative;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .header-two{
+    display: flex;
+    justify-content: center;
+} */
+.quality-text {
+    display: flex;
+    justify-content: center;
+}
+.quality-text h1 {
+    text-align: center;
 }
 
 .background-clip2 {
@@ -217,8 +231,9 @@ button {
     width: 300px;
 }
 
-.menu-items p, .order-items p {
+.menu-items p, .order-items p, .other-contents p {
     color:#bcb3a4;
+    margin-top: .3em;
 }
 
 .top-form {
@@ -233,7 +248,7 @@ button {
 }
 
 .item-logo {
-    width: 600px;
+    width: 37.5rem;
     border-radius: 4px;
 }
 
@@ -252,7 +267,7 @@ button {
 }
 
 .color-change {
-    color:#7b9c72;
+    color:#965C5B;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -311,7 +326,7 @@ textarea {
 }
 
 .submit {
-    background-color: #7b9c72;
+    background-color: #965C5B;
     color:#f4ede7;
     margin-top: 2rem;
     padding: 15px 50px 15px 50px;
@@ -330,9 +345,70 @@ footer p {
     margin: 5px;
 }
 
-.section-two-btn:hover, .section-two-btn:focus {
-    background-color:#bcb3a4;
-    color:#7b9c72;
-    padding: 20px 40px;
+.btn-maroon:hover, .btn-maroon:focus {
+    background-color: #965c5b8f;
+    color:#f4ede7;
+    cursor: pointer;
+}
 
+.container-two {
+    margin-top: 4em;
+    background-color: #5c4b44;
+    height: 440px;
+    width: auto;
+    position: relative;
+}
+
+.other-contents {
+   text-align: left;
+   /* padding-left: 3rem;
+   padding-top: 16rem; */
+   position: absolute;
+   left: 200px;
+   bottom: 150px; 
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .secondary-header {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .top-form {
+        flex-direction: column;        
+    }
+
+    .contact-item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .text-icons {
+        margin-left: 0;
+    }
+
+    .item-logo {
+        width: 100%;
+    }
+
+    .name-email {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .textarea {
+        width: 450px;
+        height: 400px;
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .other-contents {
+        left: 100px;
+        bottom: 60px;
+        margin-right: 3em;
+    }
 }
