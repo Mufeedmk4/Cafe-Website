@@ -91,7 +91,7 @@ nav{
     gap: 3em;
     justify-content: right;
     background-color: #f4ede7;
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-right: 2rem;
     margin-top: 1rem;
@@ -143,7 +143,7 @@ h4 {
 
 button {
     border-style: none;
-    border-radius: 10px;
+    border-radius: 4px;
     color: #5c4b44;
     background-color: #f4ede7;
     padding: 15px 30px;
@@ -151,6 +151,9 @@ button {
     font-family: 'Montserrat', sans-serif;
 }
 
+.find-us {
+    z-index: +101;
+}
 
 
 .secondary-header {
@@ -231,7 +234,7 @@ button {
 
 .item-logo {
     width: 600px;
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
 .contact-item {
@@ -325,4 +328,11 @@ footer {
 
 footer p {
     margin: 5px;
+}
+
+.section-two-btn:hover, .section-two-btn:focus {
+    background-color:#bcb3a4;
+    color:#7b9c72;
+    padding: 20px 40px;
+
 }
